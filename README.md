@@ -1,3 +1,4 @@
+
 # STM32 LoRa Walkie-Talkie
 
 A custom walkie-talkie built on a bare STM32F411RET6 microcontroller and SX1278 LoRa radio module, designed from scratch in KiCad with a fully custom PCB.
@@ -62,6 +63,7 @@ I made this STM32 Walkie Talkie to learn about STM32 since i have never worked w
 | Speaker           | 8Ω Small Speaker     | 2   | 0.75           | 1.51      | Generic | https://sharvielectronics.com/product/speaker-8-ohm-trumpet-diameter-40mm-2-watt/ |
 | Microphone        | Electret Mic Capsule | 2   | 0.11           | 0.22      | Generic | https://inkocean.in/products/microphones-9767-9-7-electret-microphone-a-microphone-with-pins-sensitivity-58 |
 | Display           | Nokia 5110 LCD       | 2   | 3.01           | 6.02      | Generic | https://inkocean.in/products/nokia-5110-lcd-red-screen-blue-lcd-screen-module |
+|HeatSet Insert Attatchment||1|6.2|6.2|Amazon|https://www.amazon.in/amiciTools-Heat-Insert-Soldering-Printing/dp/B0GFDZ5GL9/ref=asc_df_B0GFDZ5GL9?mcid=fe31e451fd45349b9016d36cd31d3876&hvadid=709875643605&hvpos=&hvnetw=g&hvrand=10961091970810594313&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1007828&hvtargid=pla-2466325763035&psc=1&hvocijid=10961091970810594313-B0GFDZ5GL9-&hvexpln=0|
 | Passives          | SMD passives         | 1   | 5.38           | 5.38      | —       | — |
 | PCB               | —                    | 1   | 3.00           | 3.00      | ALLPCB  | — |
 | **TOTAL** |  |  |  | **44.98** |  |  |
