@@ -35,9 +35,7 @@ I made this STM32 Walkie Talkie to learn about STM32 since i have never worked w
 - When USB is connected the system runs off USB directly and the battery charges independently. When USB is removed the load sharing circuit seamlessly switches to battery power.
 
 ---
-
-**System clock:** 96 MHz via PLL from HSE 8 MHz**
-**Firmware not tested yet**
+Firmware us teseted and works fine
 ## Build 
 <img width="3456" height="4608" alt="IMG_20260625_101636" src="https://github.com/user-attachments/assets/df3d3397-d68b-4416-8dab-bfe9c90557e1" />
 <img width="4608" height="3456" alt="IMG_20260625_101016" src="https://github.com/user-attachments/assets/68a22f2d-6d18-470e-9d6f-a26c0279cde0" />
