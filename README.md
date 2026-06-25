@@ -38,6 +38,17 @@ I made this STM32 Walkie Talkie to learn about STM32 since i have never worked w
 
 **System clock:** 96 MHz via PLL from HSE 8 MHz**
 **Firmware not tested yet**
+## Build 
+<img width="3456" height="4608" alt="IMG_20260625_101636" src="https://github.com/user-attachments/assets/df3d3397-d68b-4416-8dab-bfe9c90557e1" />
+<img width="4608" height="3456" alt="IMG_20260625_101016" src="https://github.com/user-attachments/assets/68a22f2d-6d18-470e-9d6f-a26c0279cde0" />
+<img width="4608" height="3456" alt="IMG_20260625_101017" src="https://github.com/user-attachments/assets/04d49105-2259-4b49-82de-13e13cfc0c0e" />
+<img width="4608" height="3456" alt="IMG_20260625_101018" src="https://github.com/user-attachments/assets/2ec3a8c0-af16-486f-b0e4-2601123c00bf" />
+<img width="4608" height="3456" alt="IMG_20260625_101032" src="https://github.com/user-attachments/assets/9037975f-5230-4d70-ad04-1fb7487007c4" />
+<img width="4608" height="3456" alt="IMG_20260625_101032_1" src="https://github.com/user-attachments/assets/a8e3b9c6-5a67-461a-8229-d762ec640cdb" />
+<img width="3456" height="4608" alt="IMG_20260625_101624" src="https://github.com/user-attachments/assets/8cef2daf-2d98-4504-a609-c03277f2a032" />
+<img width="3456" height="4608" alt="IMG_20260625_101626" src="https://github.com/user-attachments/assets/4545f5ae-e259-4455-9ae3-875ae953e1c7" />
+<img width="3456" height="4608" alt="IMG_20260625_101628" src="https://github.com/user-attachments/assets/00244cd5-1544-423f-a682-78349dd33bfe" />
+<img width="3456" height="4608" alt="IMG_20260625_101637" src="https://github.com/user-attachments/assets/bb8f1e0c-af1d-48e3-83c4-d24f31d7f35e" />
 
 
 ## Schematic PCB and CAD
