@@ -2,6 +2,124 @@
 
 This is a STM32 Walkie Talkie made using LoRa along with a display
 
+# 2026-06-25: Finally Finished the Build 
+
+**Total time spent: 2 hours**
+
+Completed everything and got it to working tbh the audio was a real pain in the ass but unfortuanatley i couldnt document most of it since lapse didnt work for me so here are the images for teh final build along with videos 
+![IMG_20260625_101636.jpg](https://cdn.hackclub.com/019efef0-a1de-7cb9-9977-019797b8d593/IMG_20260625_101636.jpg)![upload failed]()
+![IMG_20260625_101015.jpg](https://cdn.hackclub.com/019efef1-44fb-7912-b808-6aeaea748026/IMG_20260625_1![IMG_20260625_101032.jpg](https://cdn.hackclub.com/019efef1-67ae-757e-be40-d37db09e74fb/IMG_20260625_101032.jpg)01015.jpg)![IMG_20260625_101032_1.jpg](https://cdn.hackclub.com/019efef1-7dc6-7ecc-8164-b41faeb04c72/IMG_20260625_101032_1.jpg)
+![IMG_20260625_101637.jpg](https://cdn.hackclub.com/019efef2-2612-7659-9ff6-af80baee3c83/IMG_20260625_101637.jpg)
+
+
+https://youtube.com/shorts/hm_hJY4Z-SY
+https://youtu.be/u5zcdfWUoc0
+https://youtu.be/_cB_pIMBPP0
+https://youtu.be/SAzjPhdUsmI
+
+# 2026-06-15: Fixed something
+
+**Total time spent: 2 hours**
+
+So turns out that i mistakenly connected the SD_MODE pin to gnd which makes me unable to use the max98357a chip since it puts it in shutdown mode hence i was not able to get audio from the board so i had to fix it 
+![WhatsApp Image 2026-06-13 at 3.41.24 AM.jpeg](https://cdn.hackclub.com/019ebde4-9a22-729f-9c7a-af567911dc4c/WhatsApp%20Image%202026-06-13%20at%203.41.24%20AM.jpeg)
+
+https://drive.google.com/file/d/1RYz1zenMPdUlElBWGs8loo9nA_OZWOdw/view?usp=sharing
+https://drive.google.com/file/d/1XLs72No94m9BtLRIj_NSfTIpqdl90QST/view?usp=sharing
+https://drive.google.com/file/d/1As7aIU_MWxT8NN-wxcKUihXpjubRkdP7/view?usp=sharing
+https://drive.google.com/file/d/17ajN9sY42p0L8XeJT29g89JmJUFEaXck/view?usp=sharing
+https://drive.google.com/file/d/1ncQTPaGTxEyMPp-1-ogzvb6ysDnspMs6/view?usp=sharing
+https://drive.google.com/file/d/1AObo_ik-ZW1c3DhkKxW510I5hENpIdJg/view?usp=sharing
+
+here is some footage from my microscope of me trying to fix it by bypassing the gnd and connecting it back to 
+
+# 2026-06-15: Got The LoRa working 
+
+**Total time spent: 0.5 hours**
+
+Got the two boards to communicate with each other a simple sending hello to the other board along with reading the rssi value which shows the strength of the connection 
+![WhatsApp Image 2026-06-12 at 8.41.43 AM (2).jpeg](https://cdn.hackclub.com/019eb9e0-1e78-7c94-ac46-41209ad215c9/WhatsApp%20Image%202026-06-12%20at%208.41.43%20AM%20(2).jpeg)![WhatsApp Image 2026-06-12 at 8.41.43 AM (1).jpeg](https://cdn.hackclub.com/019eb9e0-2fa2-7c40-b4f7-9866548befb3/WhatsApp%20Image%202026-06-12%20at%208.41.43%20AM%20(1).jpeg)
+
+# 2026-06-15: More on the hardware part
+
+**Total time spent: 0.5 hours**
+
+Connected everything hardware with the Board had to make a few just connectors for everything it was my first time crimping jst pins initially crimping it properly was a bit of a challenge. but got over it finally 
+![WhatsApp Image 2026-06-12 at 8.41.44 AM.jpeg](https://cdn.hackclub.com/019eb9d9-fcd7-78e0-9b0c-89fc9021efb3/WhatsApp%20Image%202026-06-12%20at%208.41.44%20AM.jpeg)![WhatsApp Image 2026-06-12 at 8.41.43 AM.jpeg](https://cdn.hackclub.com/019eb9da-07f3-7a5a-bb36-7211d973835c/WhatsApp%20Image%202026-06-12%20at%208.41.43%20AM.jpeg)
+
+# 2026-06-15: Got the LED to Blink and LCD test
+
+**Total time spent: 1 hour**
+
+Finally got the LED to blink turnsout there was a project error in the IDE since i was opening the code from CubeMX in an already existing project so i couldnt upload and got the LED to blink also i interfaced the LCD and got it to write a message too. 
+![IMG_20260606_233744.jpg](https://cdn.hackclub.com/019ea054-7c09-702f-8028-7a6d7c42d304/IMG_20260606_233744.jpg)
+![IMG_20260606_233745.jpg](https://cdn.hackclub.com/019ea054-6c45-7640-b266-fdfa493bc09c/IMG_20260606_233745.jpg)
+![IMG_20260607_005715.jpg](https://cdn.hackclub.com/019ea058-1e1b-7251-ae72-6b415c8527c7/IMG_20260607_005715.jpg)
+
+# 2026-06-15: Completed PCB Assembly 
+
+**Total time spent: 7 hours**
+
+Completed the pcb messed up mid way but fianlly got it to work 
+
+1. Setting up the Stencil - 20min
+
+Not very difficult just the usual masking tape multiple pcbs center alignment etc had to do for 2 boards since its a walkie - talkie 
+![IMG_20260606_112105.jpg](https://cdn.hackclub.com/019e9d15-4d81-7bcf-8656-9cf1a1fdc279/IMG_20260606_112105.jpg)
+![IMG_20260606_112323.jpg](https://cdn.hackclub.com/019e9d15-3683-7a2a-ae35-35b38d42a4d4/IMG_20260606_112323.jpg)
+![IMG_20260606_112329.jpg](https://cdn.hackclub.com/019e9d15-0922-7244-ad2d-b74aafd703ca/IMG_20260606_112329.jpg)
+
+2. Paste application - 10min
+
+Applied the paste the usual 90 degree 45 degree and a pvc card 
+![IMG_20260606_142705.jpg](https://cdn.hackclub.com/019e9d16-7faa-7101-a7f2-2dfe94c1b61a/IMG_20260606_142705.jpg)
+
+3. Component placement + Reflow + Touchups + Cleanup - 2.5hr
+
+this part is the most lengthy and tedious one more over i had to do it for 2 boards so it took twice as long as it should have 
+![IMG_20260606_142750.jpg](https://cdn.hackclub.com/019e9d19-efab-7226-967f-50e080b59502/IMG_20260606_142750.jpg)![IMG_20260606_142730.jpg](https://cdn.hackclub.com/019e9d19-f960-7ae4-adf0-613c628aa383/IMG_20260606_142730.jpg)![IMG_20260606_142739.jpg](https://cdn.hackclub.com/019e9d19-ff94-7ccb-a00d-19dc841b0d6c/IMG_20260606_142739.jpg)
+
+4. Place the THT parts the sockets - 30mins
+
+placed and soldered all the THT headers and the JST connectors 
+![IMG_20260606_145338.jpg](https://cdn.hackclub.com/019e9d1a-bab9-7bb9-a13d-ea6cf0f4881e/IMG_20260606_145338.jpg)
+
+5. Found out the fuckup -1.5hr 
+
+so after all this i went to stm32 cube ide to check if everything is in order and upload a blink sketch and it showed that no device is connected so i took out my multimeter and tried checking every voltage pin boot pin to check whats wrong didnt find anything wrong nor was the chip heating up so i knew it wasn't fried atleast that gave me some relief then i looked at the chip and found out that i placed it the wrong way turns out the smaller dimple notch is pin one actualyl there were 2 so i got confused and put the chip in the orientation when the text was up it was pin 1 but it wasn't here is the error that i was getting 
+![image.png](https://cdn.hackclub.com/019e9d20-7e70-7f45-b819-9682988e72a6/image.png)
+
+5. rotating the chip+ cleanup the board  - 2 hr 
+
+since i had alr placed the tht components i couldnt use my hot plate i had to use my hot air station and chage its orientation which it self was a pain in the ass since dureing the process the pins of one of the chip got bent so i had to remove it cleanup then use 
+
+If you look carefully look out for the notches on the previous image and this one you will it get where i went wrong i was just lucky that the chip didnt get fried 
+
+![IMG_20260606_175029.jpg](https://cdn.hackclub.com/019e9d24-463f-75fe-adbe-a27ac9b0ddea/IMG_20260606_175029.jpg)![IMG_20260606_175031.jpg](https://cdn.hackclub.com/019e9d24-57e6-7e3d-9e1f-9a33c5821d04/IMG_20260606_175031.jpg)
+![IMG_20260606_175031.jpg](https://cdn.hackclub.com/019e9d24-59fc-75d1-aa8d-ea2596cb152e/IMG_20260606_175031.jpg)
+
+6. finally !!
+
+now the board was getting detected in the ide however i couldnt get the led to blink no sure why and i dodnt bother to check it then since i was very tired of doing this and my head was aching so decided to do it some other time getting it to work was the major task i would say 90% of the job. 
+
+
+# 2026-06-15: lcd work
+
+**Total time spent: 0.5 hours**
+
+Connected the 8 pin jst to the LCD and attached it to case too my measurements were off had to file the enclosure to make the LCD fit![IMG_20260530_224443.jpg](https://cdn.hackclub.com/019e7a1d-c00b-7f3a-8577-5fe01b4aa0d7/IMG_20260530_224443.jpg)![IMG_20260530_224331.jpg](https://cdn.hackclub.com/019e7a1d-cf10-79ff-b4aa-f8c8f6d00ac0/IMG_20260530_224331.jpg)
+
+# 2026-06-15: Got the parts and started the assembly
+
+**Total time spent: 1 hour**
+
+got all the parts of the walkie talkie and just assembled the hardware ones which go directly into the case. also fixed all the heatset inserts in the body messed up one of the slots but ig it will be fine.
+![IMG_20260525_124738.jpg](https://cdn.hackclub.com/019e5f7b-24cc-7a93-850c-bb474b247d75/IMG_20260525_124738.jpg)
+![IMG_20260525_124726.jpg](https://cdn.hackclub.com/019e5f7b-3b13-7844-bca5-33cc31bd523b/IMG_20260525_124726.jpg)
+![IMG_20260525_124615.jpg](https://cdn.hackclub.com/019e5f7b-529e-751d-af1d-24d4395babe9/IMG_20260525_124615.jpg)
+![IMG_20260525_124602.jpg](https://cdn.hackclub.com/019e5f7b-7b11-70d8-88bb-0a71400ac432/IMG_20260525_124602.jpg)
+
+
 # 2026-05-02: more cad
 
 **Total time spent: 0.5 hours**
