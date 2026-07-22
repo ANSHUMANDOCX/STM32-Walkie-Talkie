@@ -37,6 +37,14 @@ I made this STM32 Walkie Talkie to learn about STM32 since i have never worked w
 ---
 Firmware us teseted and works fine
 ## Build 
+
+Demo Links -
+https://youtu.be/u5zcdfWUoc0?si=na0F3SUNMQuTFcsV
+https://youtube.com/shorts/hGkoWbwqjJw?si=Fj_72HcpeDVytp3i
+https://youtube.com/shorts/hm_hJY4Z-SY?si=CA80bZE5GAXgrqjr
+https://youtu.be/_cB_pIMBPP0?si=Omx-B7MlO4rouQgG
+https://youtu.be/SAzjPhdUsmI?si=3dBDZw_p-0JPJG1Q
+
 <img width="3456" height="4608" alt="IMG_20260625_101636" src="https://github.com/user-attachments/assets/df3d3397-d68b-4416-8dab-bfe9c90557e1" />
 <img width="4608" height="3456" alt="IMG_20260625_101016" src="https://github.com/user-attachments/assets/68a22f2d-6d18-470e-9d6f-a26c0279cde0" />
 <img width="4608" height="3456" alt="IMG_20260625_101017" src="https://github.com/user-attachments/assets/04d49105-2259-4b49-82de-13e13cfc0c0e" />
